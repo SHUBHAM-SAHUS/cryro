@@ -1,0 +1,83 @@
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link{
+    color: #fff !important;
+    font-size: 0.75rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    margin-left: 38px;
+    text-transform: uppercase;
+}
+.makeStyles-logo-4.navbar-brand{
+    font-size: 1.0714285714285714rem;
+    color: #fff !important;
+}
+.MuiAppBar-colorPrimary{
+    background-color: #0b3795;
+     display: inline-block;
+     width: 100%;
+}
+.MuiAppBar-colorPrimary>.navbar{
+    float: left;
+}
+
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block !important;
+}
+
+@media (min-width:992px){
+    .nav-item.dropdown:hover .dropdown-menu{
+        display: block !important;
+    }
+}
+
+.search-box{
+    float: right;
+    margin-top: 6px;
+    margin-right: 20px;
+}
+.search-box input{
+    padding: 10px 20px;
+    border-radius: 40px;
+    min-width: 300px;
+    font-size: 14px;
+    color: #000;
+}
+.search-box button{
+    font-size: 29px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 28px;
+}
+.search-bar{
+    position: absolute;
+    z-index: 5;
+    width: 300px;
+    font-size: 16px;
+    background-color:rgba(11,55,149,1.8);
+    color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    max-height: 250px;
+    overflow: auto;
+    min-height: 1px;
+}
+.search-bar span{
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #191f9c;
+    display: inline-block;
+    width: 100%;
+}
+.search-bar span a{
+    padding: 7px 10px;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+} 
+.search-bar span a:hover {
+    background-color: #1949af;
+}

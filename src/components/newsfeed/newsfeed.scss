@@ -1,0 +1,37 @@
+.news-box img{
+    width: 100%;
+}
+.news-box .hover-box{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    padding: 30px 30px 15px;
+}
+.news-box .hover-box h4{
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.news-box .hover-box .date{
+    font-size: 12px;
+     color: #fff;
+}
+.news-item h3 a{
+    font-weight: bold;
+}
+.news-item h6{
+    color: #000;
+}
+.news-item h6 span{
+    font-size: 12px;
+}
+.news-item {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.news-item + .news-item{
+    margin-top: 15px;
+}
